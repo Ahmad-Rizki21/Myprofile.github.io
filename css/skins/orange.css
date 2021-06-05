@@ -1,0 +1,52 @@
+/*-------------------- Logo Section --------------------*/
+.aside .logo a::before{
+    border-top: 4px solid #fa5b0f;
+    border-left: 4px solid #fa5b0f;
+}
+
+.aside .logo a::after{
+    border-right: 4px solid #fa5b0f;
+    border-bottom: 4px solid #fa5b0f;
+}
+/*-------------------- Logo Section End --------------------*/
+
+
+/*-------------------- Navbar Section --------------------*/
+.contact .contact-info-item .icon .fa,
+.blog .blog-item-inner .blog-info .blog-tags a,
+.lightbox .lightbox-controls .prev-item .fa,
+.lightbox .lightbox-controls .next-item .fa,
+.portofolio .portofolio-item .portofolio-info .icon .fa,
+body.dark .portofolio .portofolio-filter button.active,
+.portofolio .portofolio-filter button.active,
+.service .service-item .service-item-inner .icon .fa,
+.about .about-content .about-text h3 span,
+body.dark .aside .nav li a:hover,
+body.dark .aside .nav li a.active,
+.aside .nav li a:hover,
+.aside .nav li a.active{
+color: #fa5b0f;
+}
+/*-------------------- Navbar Section End --------------------*/
+
+
+/*-------------------- Gabungan Section --------------------*/
+.blog .blog-item-inner .blog-img .blog-date,
+.service .service-item .service-item-inner:hover .icon,
+.about .about-content .timeline .circle-dot,
+.about .about-content .timeline .timeline-item::before,
+.about .about-content .skills .skill-item .progress .progress-in,
+.btn,
+.section-title h2::after,
+.section-title h2::before,
+.aside .nav-toggler span,
+    .aside .nav-toggler span::before,
+    .aside .nav-toggler span::after,
+    .home .intro .social-links a{
+    background-color: #fa5b0f;
+}
+/*-------------------- Gabungan Section End --------------------*/
+
+.portofolio .portofolio-filter button.active{
+    border-color: #fa5b0f;
+}
